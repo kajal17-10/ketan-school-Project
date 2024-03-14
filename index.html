@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Hind&family=Lato:wght@300;400&family=Open+Sans&family=Roboto+Slab&family=Rubik:wght@300;400&family=Sofia+Sans+Semi+Condensed:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <!--custom css link  -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <!--bootstrap css links  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+     <!-- link fontawesome cdn links -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- header section start  -->
+<section class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand mx-auto" href="#">
+            <img src="./assest/img/logo.png" alt="ketan_logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">home1</a></li>
+                      <li><a class="dropdown-item" href="#">home2</a></li>
+                      <li><a class="dropdown-item" href="#">home 3</a></li>
+                      <li><a class="dropdown-item" href="#">home 4</a></li>
+                      <li><a class="dropdown-item" href="#">home 5</a></li>
+                      <li><a class="dropdown-item" href="#">home 6</a></li>
+                    </ul>
+                  </li>              
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">about</a></li>
+                  <li><a class="dropdown-item" href="#">gallery</a></li>
+                  <li><a class="dropdown-item" href="#">pricing</a></li>
+                  <li><a class="dropdown-item" href="#">how to apply</a></li>
+                  <li><a class="dropdown-item" href="#">programs</a></li>
+                  <li><a class="dropdown-item" href="#">enroll</a></li>
+                  <li><a class="dropdown-item" href="#">time table</a></li>
+                  <li><a class="dropdown-item" href="#">faq</a></li>
+                  <li><a class="dropdown-item submenu-list" href="#">account</a>
+                <ul class="list-unstyled sub-menu">
+                       <li><a href="#">login</a></li>
+                       <li><a href="#">sign up  </a></li>
+                </ul>
+                
+                </li>
+                  <li><a class="dropdown-item" href="#">error page</a></li>
+                  <li><a class="dropdown-item" href="#">times of service</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  teacher <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">teacher</a></li>
+                  <li><a class="dropdown-item" href="#">teacher detailss</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  event <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">event</a></li>
+                  <li><a class="dropdown-item" href="#">event details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  class <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">class</a></li>
+                  <li><a class="dropdown-item" href="#">class details</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  blog <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">blog</a></li>
+                  <li><a class="dropdown-item" href="#">blog detailss</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#" aria-expanded="false">
+                  contact us
+                </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      languages <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">hindi</a></li>
+                      <li><a class="dropdown-item" href="#">english</a></li>
+                      <li><a class="dropdown-item" href="#">chinease</a></li>
+                    </ul>
+                  </li>
+            </ul>
+           
+              <button class="btn  text-light p-2 fs-5 px-3" type="submit">contact us</button>
+          
+          </div>
+        </div>
+      </nav>
+</section>
+    <!-- header section end -->
+    <!-- banner section start  -->
+        <section class="main-banner">
+          <div class="container">
+           <div class="row">
+            <div class="col-md-6">
+                <div class="img-group my-5">
+                    <img src="./assets/img/banner-shape-1.png" alt="banner-shape-1" class="img-fluid">
+                    <img src="./assets/img/banner-shape-2.png" alt="banner-shape-2" class="img-fluid">
+                </div>
+                <div class="content my-5">
+                    <h6 class="text-danger">play learn and grow</h6>
+                <h1> <strong>Empowering Student Knowledge</strong></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni harum fuga modi repellat, aspernatur quasi consequuntur eveniet soluta a corrupti placeat, adipisci praesentium vitae omnis pariatur officiis nihil. Quis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ducimus sint possimus numquam excepturi sit, dolor explicabo eligendi aliquam earum corporis molestiae suscipit nemo, officiis dolores quod facilis maxime inventore?</p>
+                <div class="btngroup btn">
+                 <button>learn more</button>
+                 <button>find out more</button>
+                </div>
+                 <!-- img-group section start  -->
+            <div class="img-group">
+              <img src="./assets/img/banner-shape-3.png" alt="banner" class="img-fluid">
+              <img src="./assets/img/banner-shape-4.png" alt="banner" class="img-fluid img1">
+            </div>
+            <!-- img-group section end  -->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/img/education-girl.png" alt="education-girl" class="img-fluid">
+            </div>
+           </div>
+          </div>
+        </section>
+    
+    <!-- banner section end -->
+    <!-- childhood section start -->
+    <section class="childhood my-5">
+      <div class="container">
+        <div class="row">
+      
+          <div class="col-md-6">
+           
+           <div class="img">
+            <img src="./assets/img/who-we-are.jpg" alt="" class="img-fluid">
+           </div>
+          
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center fs-6 text-danger">who are you</h3>
+            <h3 class="text-center">Kindergarten and Childhood is Our Passion</h3>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="circle-content">
+                  <div class="circle">
+                    1 
+                  </div> 
+                  <div class="title">
+                    <h6>Homelike Environment</h6>
+                  </div>
+                </div>
+                <div class="circle-content my-5">
+                  <div class="circle">
+                    3
+                  </div> 
+                  <div class="title">
+                    <h6>Homelike Environment</h6>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-md-6">
+                <div class="circle-content ">
+                  <div class="circle">
+                    2
+                  </div> 
+                  <div class="title">
+                    <h6>Homelike Environment</h6>
+                  </div>
+                </div>
+                <div class="circle-content my-5">
+                  <div class="circle">
+                    4
+                  </div> 
+                  <div class="title">
+                    <h6>Homelike Environment</h6>
+                  </div>
+                </div>
+                <div class="btn">
+                  <button>read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- childhood section end -->
+    <!-- popularclass section start -->
+    <section class="popularclass ">
+      <div class="container">
+        <div class="row ">
+       <p class="text-center mt-5">clsses</p>
+       <h3 class="text-center my-5">Popular Classes</h3>
+       <h3 class="text-center"></h3>
+          
+          <div class="col-md-11 mx-auto">
+          <div class="row my-5">
+            <div class="col-md-4">
+              <div class="card">
+               <div class="img1">
+                 <img src="./assets/img/class-1.jpg alt="class1" class="img-fluid">
+               </div>
+              <div class="card-body">
+               <h5 class="card-title my-4 fs-4">Color matching</h5>
+               <div class="price">
+                 <h5>$ 880</h5>
+               </div>
+                   <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam recusandae, voluptates enim nesciunt veritatis in numquam maiores error consectetur officiis, et doloribus. Incidunt, ex eveniet maxime ratione et nesciunt.</p>
+                   </div>
+                   <div class="join my-4">
+                     <div class="age">
+                       <h5><strong><span >age : </span></strong>3-5 year</h5>
+                     </div>
+                     <div class="time">
+                       <h5><strong><span >time : </span></strong>8-10 am</h5>
+                     </div>
+                     <div class="seat">
+                       <h5><strong><span >seat : </span></strong>25</h5>
+                     </div>
+                   </div>
+                   <div class="btn">
+                     <button class="fs-3">join class</button>
+                   </div>
+              </div>
+              </div>
+               </div>
+               <div class="col-md-4">
+                 <div class="card">
+                  <div class="img1">
+                   <img src="./assets/img/class-2.jpg" alt="class1" class="img-fluid">
+                  </div>
+                   <div class="card-body">
+                    <h5 class="card-title my-4 fs-4">Color matching</h5>
+                    <div class="price">
+                      <h5>$ 880</h5>
+                    </div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam recusandae, voluptates enim nesciunt veritatis in numquam maiores error consectetur officiis, et doloribus. Incidunt, ex eveniet maxime ratione et nesciunt.</p>
+                        </div>
+                        <div class="join my-4">
+                          <div class="age">
+                            <h5><strong><span >age : </span></strong>3-5 year</h5>
+                          </div>
+                          <div class="time">
+                            <h5><strong><span >time : </span></strong>8-10 am</h5>
+                          </div>
+                          <div class="seat">
+                            <h5><strong><span >seat : </span></strong>25</h5>
+                          </div>
+                        </div>
+                        <div class="btn">
+                          <button class="fs-3">join class</button>
+                        </div>
+                   </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card">
+                 <div class="img1">
+                  <img src="./assets/img/class-3.jpg" alt="class1" class="img-fluid">
+                 </div>
+                  <div class="card-body">
+                   <h5 class="card-title my-4 fs-4">Color matching</h5>
+                   <div class="price">
+                     <h5>$ 880</h5>
+                   </div>
+                       <div class="content">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam recusandae, voluptates enim nesciunt veritatis in numquam maiores error consectetur officiis, et doloribus. Incidunt, ex eveniet maxime ratione et nesciunt.</p>
+                       </div>
+                       <div class="join my-4">
+                         <div class="age">
+                           <h5><strong><span >age : </span></strong>3-5 year</h5>
+                         </div>
+                         <div class="time">
+                           <h5><strong><span >time : </span></strong>8-10 am</h5>
+                         </div>
+                         <div class="seat">
+                           <h5><strong><span >seat : </span></strong>25</h5>
+                         </div>
+                       </div>
+                       <div class="btn">
+                         <button class="fs-3">join class</button>
+                       </div>
+                  </div>
+                 </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popularclass section end -->
+    <!-- refundly section start -->
+    <section class="refundly my-5 ">
+      <div class="container my-5">
+        <div class="row my-5">
+          <div class="col-md-6 my-5">
+            
+              <img src="./assets/img/value-1.png" alt="value-1" class="img-fluid">
+      
+          </div>
+          <div class="col-md-6 my-5">
+           <h6 class="text-danger">our values</h6>
+           <h3>We are Refunding Early Childcare Education</h3>
+          
+            <div class="content">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="main-circle">
+                    <div class="circle circle1">
+                      <h5>01</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  
+                    <h4>active learning</h4>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos sint cum ratione rem, labore aspernatur debitis culpa.</p>
+                
+                </div>
+             </div>
+             </div>
+             <div class="content">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="main-circle">
+                    <div class="circle circle2">
+                      <h5>02</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  
+                    <h4>safe Environment</h4>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos sint cum ratione rem, labore aspernatur debitis culpa.</p>
+                </div>
+             </div>
+             </div>
+             <div class="content">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="main-circle">
+                    <div class="circle">
+                      <h5>03</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  
+                    <h4>active learning</h4>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos sint cum ratione rem, labore aspernatur debitis culpa.</p>
+                
+                </div>
+             </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- refundly section end -->
+    <!-- teacher sectionn start -->
+    <section class="teacher">
+      <div class="container">
+        <div class="row my-5 text-center">
+          <p class="text-danger text-center">teacher</p>
+          <h3 class="f-bold">meet our teacher</h3>
+          <div class="col-md-3">
+            <div class="profile">
+              <div class="img">
+                <img src="./assets/img/teacher-1.jpg" alt="teacher" class="img-fluid" >
+                <div class="icon">
+                  <div class="circle">  
+                    <i class="fa-brands fa-facebook-f fs-3"></i>
+                  </div>
+                   <div class="circle">
+                    <i class="fa-brands fa-twitter fs-3"></i>
+                   </div>
+                 <div class="circle">
+                  <i class="fa-brands fa-linkedin fs-3"></i>
+                 </div>
+                    <div class="circle">
+                      <i class="fa-brands fa-instagram fs-3"></i>
+                    </div>
+                  </div>
+              </div>
+             
+           <div class="title my-4">
+            <h4 class="f-bold">grims bond</h4>
+            <h6  class="text-danger">music teacher</h6>
+           </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="profile">
+              <div class="img">
+                <img src="./assets/img/teacher-2.jpg" alt="teacher" class="img-fluid" >
+                <div class="icon">
+                  <div class="circle">  
+                    <i class="fa-brands fa-facebook-f fs-3"></i>
+                  </div>
+                   <div class="circle">
+                    <i class="fa-brands fa-twitter fs-3"></i>
+                   </div>
+                 <div class="circle">
+                  <i class="fa-brands fa-linkedin fs-3"></i>
+                 </div>
+                    <div class="circle">
+                      <i class="fa-brands fa-instagram fs-3"></i>
+                    </div>
+                  </div>
+              </div>
+             
+           <div class="title my-4">
+            <h4 class="f-bold">grims bond</h4>
+            <h6  class="text-danger">arts teacher</h6>
+           </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="profile">
+              <div class="img">
+                <img src="./assets/img/teacher-3.jpg" alt="teacher" class="img-fluid" >
+                <div class="icon">
+                  <div class="circle">  
+                    <i class="fa-brands fa-facebook-f fs-3"></i>
+                  </div>
+                   <div class="circle">
+                    <i class="fa-brands fa-twitter fs-3"></i>
+                   </div>
+                 <div class="circle">
+                  <i class="fa-brands fa-linkedin fs-3"></i>
+                 </div>
+                    <div class="circle">
+                      <i class="fa-brands fa-instagram fs-3"></i>
+                    </div>
+                  </div>
+              </div>
+             
+           <div class="title my-4">
+            <h4 class="f-bold">grims bond</h4>
+            <h6  class="text-danger">math teacher</h6>
+           </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="profile">
+              <div class="img">
+                <img src="./assets/img/teacher-4.jpg" alt="teacher" class="img-fluid" >
+                <div class="icon">
+                  <div class="circle">  
+                    <i class="fa-brands fa-facebook-f fs-3"></i>
+                  </div>
+                   <div class="circle">
+                    <i class="fa-brands fa-twitter fs-3"></i>
+                   </div>
+                 <div class="circle">
+                  <i class="fa-brands fa-linkedin fs-3"></i>
+                 </div>
+                    <div class="circle">
+                      <i class="fa-brands fa-instagram fs-3"></i>
+                    </div>
+                  </div>
+              </div>
+             
+           <div class="title my-4">
+            <h4 class="f-bold">smith bond</h4>
+            <h6  class="text-danger">english teacher</h6>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- teacher sectionn end -->
+    <!-- testimonals section start -->
+    <section class="testimonals my-5">
+      <div class="container">
+        <div class="row">
+          <p class="text-danger text-center">Testimonials
+          </p>
+          <h3 class="text-center f-bold">What Parents Say About Us</h3>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="review ">
+                <div class="quote mt-4">
+                  <i class="fa-solid fa-quote-left fs-1 text-danger"></i>
+                </div>
+               <div class="content ">
+                <p class="text-light p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, doloremque culpa necessitatibus ducimus ea et! Quae vel totam consequatur mollitia est. Ullam sequi eos doloribus, perferendis optio repellendus veniam quia!</p>
+               </div>
+                <h4>grims bond</h4>
+                <h6 class="text-danger">music teacher</h6>
+              </div>
+              <img src="./assets/img/testimonials-1.png" alt="testimonals" class="img-fluid">
+            
+            </div>
+            <div class="item">
+              <div class="review ">
+                <div class="quote mt-4">
+                  <i class="fa-solid fa-quote-left fs-1 text-danger"></i>
+                </div>
+               <div class="content ">
+                <p class="text-light p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, doloremque culpa necessitatibus ducimus ea et! Quae vel totam consequatur mollitia est. Ullam sequi eos doloribus, perferendis optio repellendus veniam quia!</p>
+               </div>
+                <h4>grims bond</h4>
+                <h6 class="text-danger">music teacher</h6>
+              </div>
+              <img src="./assets/img/testimonials-2.png" alt="testimonals" class="img-fluid">
+            </div>
+            <div class="item">
+              <div class="review ">
+                <div class="quote mt-4">
+                  <i class="fa-solid fa-quote-left fs-1 text-danger"></i>
+                </div>
+               <div class="content ">
+                <p class="text-light p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, doloremque culpa necessitatibus ducimus ea et! Quae vel totam consequatur mollitia est. Ullam sequi eos doloribus, perferendis optio repellendus veniam quia!</p>
+               </div>
+                <h4>grims bond</h4>
+                <h6 class="text-danger">music teacher</h6>
+              </div>
+              <img src="./assets/img/testimonials-3.png" alt="testimonals" class="img-fluid">
+            </div>
+            <div class="item">
+              <div class="review ">
+                <div class="quote mt-4">
+                  <i class="fa-solid fa-quote-left fs-1 text-danger"></i>
+                </div>
+               <div class="content ">
+                <p class="text-light p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, doloremque culpa necessitatibus ducimus ea et! Quae vel totam consequatur mollitia est. Ullam sequi eos doloribus, perferendis optio repellendus veniam quia!</p>
+               </div>
+                <h4>grims bond</h4>
+                <h6 class="text-danger">music teacher</h6>
+              </div>
+              <img src="./assets/img/testimonials-1.png" alt="testimonals" class="img-fluid">
+            </div>
+            <div class="item">
+              <div class="review ">
+                <div class="quote mt-4">
+                  <i class="fa-solid fa-quote-left fs-1 text-danger"></i>
+                </div>
+               <div class="content ">
+                <p class="text-light p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, doloremque culpa necessitatibus ducimus ea et! Quae vel totam consequatur mollitia est. Ullam sequi eos doloribus, perferendis optio repellendus veniam quia!</p>
+               </div>
+                <h4>grims bond</h4>
+                <h6 class="text-danger">music teacher</h6>
+              </div>
+              <img src="./assets/img/teacher-2.jpg" alt="testimonals" class="img-fluid">
+            </div>
+            <div class="item"><div class="review ">
+              <div class="quote mt-4">
+                <i class="fa-solid fa-quote-left fs-1 text-danger"></i>
+              </div>
+             <div class="content ">
+              <p class="text-light p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, doloremque culpa necessitatibus ducimus ea et! Quae vel totam consequatur mollitia est. Ullam sequi eos doloribus, perferendis optio repellendus veniam quia!</p>
+             </div>
+              <h4>grims bond</h4>
+              <h6 class="text-danger">music teacher</h6>
+            </div>
+            <img src="./assets/img/testimonials-3.png" alt="testimonals" class="img-fluid">
+          </div>
+            
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonals section end -->
+    <!-- event section start -->
+    <section class="event my-5">
+      <div class="container">
+        <div class="row">
+          <p class="text-center text-light">events</p>
+          <h3 class="text-center text-light">upcomming events</h3>
+          <div class="col-lg-11 mx-auto bg-light my-4">
+            <div class="row my-5">
+              <div class="col-lg-4 my-5">
+                <img src="./assets/img/event-1.png" alt="event" class="img-fluid">
+              </div>
+              <div class="col-lg-5 my-5 ">
+                <div class="event-content">
+                  <h4 class="my-4 fs-2">annual culture programme</h4>
+                 <span class="fs-4 my-4 px-3 d-block"> <i class="fa-solid fa-business-time text-danger "></i> <span class="">8am to 10pm</span></span>
+                  <span class="fs-4 p-3 d-block mb-4">
+                    <i class="fa-solid fa-location-pin text-danger "></i> <span>New York 56 Glassford Street Glasgow</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 text-center my-5">
+                <h2 class="fs-1 text-danger">12 <br> september</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-11 mx-auto bg-light my-4">
+            <div class="row my-5">
+              <div class="col-lg-4 my-5">
+                <img src="./assets/img/event-2.png" alt="event" class="img-fluid">
+              </div>
+              <div class="col-lg-5 my-5 ">
+                <div class="event-content">
+                  <h4 class="my-4 fs-2">annual culture programme</h4>
+                 <span class="fs-4 my-4 px-3 d-block"> <i class="fa-solid fa-business-time text-danger "></i> <span class="">8am to 10pm</span></span>
+                  <span class="fs-4 p-3 d-block mb-4">
+                    <i class="fa-solid fa-location-pin text-danger "></i> <span>New York 56 Glassford Street Glasgow</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 text-center my-5">
+                <h2 class="fs-1 text-danger">12 <br> september</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-11 mx-auto bg-light my-4">
+            <div class="row my-5">
+              <div class="col-lg-4 my-5">
+                <img src="./assets/img/event-3.png" alt="event" class="img-fluid">
+              </div>
+              <div class="col-lg-5 my-5 ">
+                <div class="event-content">
+                  <h4 class="my-4 fs-2">annual culture programme</h4>
+                 <span class="fs-4 my-4 px-3 d-block"> <i class="fa-solid fa-business-time text-danger "></i> <span class="">8am to 10pm</span></span>
+                  <span class="fs-4 p-3 d-block mb-4">
+                    <i class="fa-solid fa-location-pin text-danger "></i> <span>New York 56 Glassford Street Glasgow</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 text-center my-5">
+                <h2 class="fs-1 text-danger">12 <br> september</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-11 mx-auto bg-light my-4">
+            <div class="row my-5">
+              <div class="col-lg-4 my-5">
+                <img src="./assets/img/event-4.png" alt="event" class="img-fluid">
+              </div>
+              <div class="col-lg-5 my-5 ">
+                <div class="event-content">
+                  <h4 class="my-4 fs-2">annual culture programme</h4>
+                 <span class="fs-4 my-4 px-3 d-block"> <i class="fa-solid fa-business-time text-danger "></i> <span class="">8am to 10pm</span></span>
+                  <span class="fs-4 p-3 d-block mb-4">
+                    <i class="fa-solid fa-location-pin text-danger "></i> <span>New York 56 Glassford Street Glasgow</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 text-center my-5">
+                <h2 class="fs-1 text-danger">12 <br> september</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- event section end -->
+    <!-- news section start -->
+    <section class="blog my-5">
+      <div class="container">
+        <div class="row">
+          <h6 class="text-center">blog & news</h6>
+          <h3 class="text-center f-bold my-5"> latest news</h3>
+          <div class="col-md-4 my-3">
+            <div class="card">
+             <div class="img1">
+              <img src="./assets/img/blog-1.jpg" class="card-img-top" alt="blog">
+             </div>
+              <div class="card-body my-4">
+                <div class="card-content">
+                  <h6><span class="text-danger">by admin: </span>jack mon</h6>
+                  <h6><span class="text-danger">Date : </span>25 dec 2022</h6>
+                </div>
+                <h5 class="card-title text-center f-bold mt-3">Red Green Color Blindness</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in reiciendis saepe vitae ipsum natus quia autem fuga inventore doloribus possimus, voluptatem repudiandae facilis? Nostrum expedita consequuntur repellat minus aperiam.</p>
+                <div class="btn">
+                  <button>read more</button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+             <div class="img1">
+              <img src="./assets/img/blog-2.jpg" class="card-img-top" alt="blog">
+             </div>
+              <div class="card-body my-4">
+                <div class="card-content">
+                  <h6><span class="text-danger">by admin: </span>jack mon</h6>
+                  <h6><span class="text-danger">Date : </span>25 dec 2022</h6>
+                </div>
+                <h5 class="card-title text-center mt-3 f-bold">Red Green Color Blindness</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in reiciendis saepe vitae ipsum natus quia autem fuga inventore doloribus possimus, voluptatem repudiandae facilis? Nostrum expedita consequuntur repellat minus aperiam.</p>
+                <div class="btn">
+                  <button>read more</button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+            <div class="img1">
+              <img src="./assets/img/blog-3.jpg" class="card-img-top" alt="blog">
+            </div>
+              <div class="card-body my-4">
+                <div class="card-content">
+                  <h6><span class="text-danger">by admin: </span>jack mon</h6>
+                  <h6><span class="text-danger">Date : </span>25 dec 2022</h6>
+                </div>
+                <h5 class="card-title mt-3 text-center f-bold">Red Green Color Blindness</h5>
+                <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in reiciendis saepe vitae ipsum natus quia autem fuga inventore doloribus possimus, voluptatem repudiandae facilis? Nostrum expedita consequuntur repellat minus aperiam.</p>
+                <div class="btn">
+                  <button>read more</button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news section end -->
+    <!-- footer section start -->
+    <section class="footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3">
+            <h3 class="f-bold text-light "> <a href="index.html" class="text-light">KETAN</a></h3>
+            <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quos quisquam id? Enim a fugit repudiandae porro iusto maxime libero amet at quis, ducimus earum laboriosam, cumque quae. Quidem, nihil?</p>
+            <div class="social-icon">
+           
+                <div class="circle">  
+                  <i class="fa-brands fa-facebook-f fs-3"></i>
+                </div>
+                 <div class="circle">
+                  <i class="fa-brands fa-twitter fs-3"></i>
+                 </div>
+               <div class="circle">
+                <i class="fa-brands fa-linkedin fs-3"></i>
+               </div>
+                  <div class="circle">
+                    <i class="fa-brands fa-instagram fs-3"></i>
+                  </div>
+                
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="f-bold text-light mb-5">contact us</h2>
+            <div class="footer-inner">
+              <i class="fa-solid fa-phone text-danger d-block mx-3 fs-3 d-block"></i>
+              <h6 class="text-light "><strong class="fs-3 ">phone</strong>
+              <br> <span class="pt-4">9767724250</span>
+              </h6>
+            </div>
+            <div class="footer-inner">
+              <i class="fa-solid fa-envelope d-block mx-3 fs-3 text-danger"></i>
+              <h6 class="text-light "><strong class="fs-3 ">email</strong>
+              <br> <span class="pt-4">pollaxman204@gmail.com</span>
+              </h6>
+            </div>
+            <div class="footer-inner">
+              <i class="fa-solid fa-location-dot d-block mx-3 fs-3 text-danger"></i>
+              <h6 class="text-light "><strong class="fs-3 ">Address</strong>
+              <br> <span class="pt-4">175 5th Ave Premium Area, New York, NY 10010, United States</span>
+              </h6>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="f-bold text-light mb-5">activities</h2>
+           <div class="footer-menu ">
+            <a href="#">Maths Olympiad</a>
+            <a href="#">Art Competition</a>
+            <a href="#">English Novels</a>
+            <a href="#">Science Competition</a>
+            <a href="#">Teachers Day</a>
+            <a href="#">World Kids Day</a>
+           </div>
+
+          </div>
+          <div class="col-md-3">
+            <h2 class="f-bold text-light mb-5">photo gallery</h2>
+            <div class="footer-gallery">
+              <div class="row my-3">
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-1.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-2.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-5.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-1.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-2.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-3.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-4.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-5.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-img">
+                    <img src="./assets/img/footer-gallery-6.jpg" alt="ketan" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section end -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="text-center text-light p-5 ">Copyright @2023 Ketan. All Rights Reserved by <span class='text-danger'>kajal pol</span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dark mode choose -->
+    <button onclick="darkmode()" class="fixed">dark mode</button>
+    <!--bootstrap js bundle  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./assets/js/script.js"></script>    
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    // nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+</body>
+</html>
